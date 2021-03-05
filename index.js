@@ -106,3 +106,4 @@ function writeNumber( number, index ) {
 }
 
 console.log(convertNumbersToRoman(numbers));
+// console.log(convertNumbersToRoman(multipleNumbers));
