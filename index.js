@@ -1,3 +1,5 @@
+// Colocar un array de numeros o mandar un simple número
+
 let multipleNumbers = [2900, 1700, 2490, 25];
 let numbers = 3999;
 
@@ -25,7 +27,7 @@ function convertNumbersToRoman(number) {
 			result = '';
 
 			for ( let d = 0; d < str.length; d++ ) {
-				
+
 				result = `${result}${writeNumber( str[d], index )}`;
 				index--;
 			}
