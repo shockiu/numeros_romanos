@@ -23,7 +23,9 @@ function convertNumbersToRoman(number) {
 			str = number[i].toString();
 			let index = str.length - 1;
 			result = '';
+
 			for ( let d = 0; d < str.length; d++ ) {
+				
 				result = `${result}${writeNumber( str[d], index )}`;
 				index--;
 			}
